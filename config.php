@@ -32,6 +32,16 @@ $THEME->editor_sheets = [];
 $THEME->editor_scss = ['editor'];
 $THEME->usefallback = true;
 
+$THEME->layouts = [
+    // Main course page.
+    'course' => array(
+        'file' => 'course.php',
+        'regions' => array('side-pre', 'top', 'centertop'),
+        'defaultregion' => 'side-pre',
+        'options' => array('langmenu' => true),
+    )
+];
+
 $THEME->scss = function($theme) {
     return theme_boost_get_main_scss_content($theme);
 };

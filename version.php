@@ -24,7 +24,7 @@
 
 defined('MOODLE_INTERNAL') || die;
 
-$plugin->version   = 2018120300;
+$plugin->version   = 2018120301;
 $plugin->requires  = 2018112800;
 $plugin->component = 'theme_aulasvirtuales';
 $plugin->dependencies = array(
